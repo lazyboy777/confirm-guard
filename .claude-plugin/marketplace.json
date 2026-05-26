@@ -1,0 +1,9 @@
+{
+  "name": "confirm-guard",
+  "version": "1.0.0",
+  "description": "Tkinter confirmation dialog for dangerous Bash operations. Shows a sleek Catppuccin Mocha popup before executing risky commands (rm -rf, git push --force, DROP TABLE, etc.). Cross-platform: macOS, Linux, Windows.",
+  "hooks": [
+    "hooks/hooks.json"
+  ],
+  "minClaudeCodeVersion": "1.0.0"
+}
