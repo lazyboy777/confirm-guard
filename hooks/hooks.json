@@ -1,0 +1,17 @@
+{
+  "description": "confirm-guard - Tkinter confirmation dialog for dangerous Bash commands",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/run.sh\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
